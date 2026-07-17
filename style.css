@@ -8,7 +8,7 @@
     top: 30px;
     display: flex;
     justify-content: center;
-     
+     position: sticky;
 
     h1{
         position: relative;
