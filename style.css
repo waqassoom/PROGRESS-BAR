@@ -120,6 +120,20 @@ background-color: rgb(58, 253, 64);
     top: 190px;
     left: 48px;
     border-radius: 50px;
+animation-name: rightmovement;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-direction: alternate;
+}
+@keyframes rightmovement {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 420px;
+    }
+    
 }
 #div-22{
 height: 20px;
@@ -129,6 +143,21 @@ background-color: rgb(30, 96, 250);
     top: 330px;
     left: 48px;
     border-radius: 50px;
+    animation-name: rightmovement1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes rightmovement1 {
+    from{
+        width: 0px;
+
+    }
+    to{
+        width: 370px;
+    }
+    
 }
 #div-33{
 height: 20px;
@@ -138,4 +167,18 @@ background-color: rgb(241, 164, 21);
     top: 480px;
     left: 48px;
     border-radius: 50px;
+    animation-name: rightmovement2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes rightmovement2 {
+    from{
+        width: 0px;
+
+    }
+to{
+    width: 350px;
+}
 }
