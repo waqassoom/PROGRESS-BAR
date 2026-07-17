@@ -1,0 +1,141 @@
+.container{
+    width: 600px;
+    height: 600px;
+    box-shadow: inset 0px 0px 5px black;
+    border-radius: 12px;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+     
+
+    h1{
+        position: relative;
+        top: 40px;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+}
+#label{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.7em;
+font-weight: 900;
+}
+
+#div-1{
+height: 20px;
+width: 470px;
+background-color: rgb(221, 221, 240);
+ position: absolute;
+    top: 190px;
+    left: 48px;
+    border-radius: 50px;
+}
+#label1{
+     position: absolute;
+    top: 280px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.7em;
+font-weight: 900;
+}
+#div-2{
+height: 20px;
+width: 470px;
+background-color: rgb(221, 221, 240);
+ position: absolute;
+    top: 330px;
+    left: 48px;
+    border-radius: 50px;
+}
+#label2{
+     position: absolute;
+    top: 420px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.7em;
+font-weight: 900;
+}
+#div-3{
+height: 20px;
+width: 470px;
+background-color: rgb(221, 221, 240);
+ position: absolute;
+    top: 480px;
+    left: 48px;
+    border-radius: 50px;
+}
+#btn1{
+border-radius: 15px;
+width: 60px;
+height: 30px;
+color: rgb(103, 103, 255);
+font-size: larger;
+font-weight: 900;
+background-color: rgb(221, 221, 240);
+border: none;
+position: absolute;
+top: 150px;
+right: 90px;
+
+}
+#btn2{
+border-radius: 15px;
+width: 60px;
+height: 30px;
+color: rgb(103, 103, 255);
+font-size: larger;
+font-weight: 900;
+background-color: rgb(221, 221, 240);
+border: none;
+position: absolute;
+top: 290px;
+right: 90px;
+
+}
+#btn3{
+border-radius: 15px;
+width: 60px;
+height: 30px;
+color: rgb(103, 103, 255);
+font-size: larger;
+font-weight: 900;
+background-color: rgb(221, 221, 240);
+border: none;
+position: absolute;
+top: 440px;
+right: 90px;
+
+}
+#div-11{
+height: 20px;
+width: 420px;
+background-color: rgb(58, 253, 64);
+ position: absolute;
+    top: 190px;
+    left: 48px;
+    border-radius: 50px;
+}
+#div-22{
+height: 20px;
+width: 370px;
+background-color: rgb(30, 96, 250);
+ position: absolute;
+    top: 330px;
+    left: 48px;
+    border-radius: 50px;
+}
+#div-33{
+height: 20px;
+width: 350px;
+background-color: rgb(241, 164, 21);
+ position: absolute;
+    top: 480px;
+    left: 48px;
+    border-radius: 50px;
+}
